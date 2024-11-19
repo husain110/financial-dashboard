@@ -1,0 +1,318 @@
+/* Main Title Styling */
+.main-title {
+    color: #ffee00; 
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+/* Section Title Styling */
+.section-title {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    border-bottom: 2px solid #1f77b4;
+    padding-bottom: 10px;
+}
+
+/* Card and Flex Container Styles */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.card, .stock-card, .crypto-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover, .stock-card:hover, .crypto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Title and Content */
+.card-title, .stock-name, .crypto-name {
+    color: #2E86C1;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card-price, .stock-price, .crypto-price {
+    color: #27ae60;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-change, .stock-change, .crypto-change {
+    font-weight: bold;
+}
+
+.change-positive {
+    color: green;
+}
+
+.change-negative {
+    color: red;
+}
+
+/* Dividend Information Card */
+.dividend-info {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.dividend-info:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Company Logo and Dividend Income Card */
+.company-card {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+
+.company-logo {
+    width: 80px; /* Increased logo size */
+    height: 80px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.company-info h2, .company-info h3 {
+    margin: 0;
+    color: #ffffff;
+}
+
+/* Centered Table Content */
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* News Card Styles */
+.news-card {
+    background: linear-gradient(145deg, #2a2a2a, #1e1e1e);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.news-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 15px;
+    transition: color 0.2s ease;
+}
+
+.news-title:hover {
+    color: #5dade2;
+}
+
+.news-link {
+    color: #76d7c4;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.news-link:hover {
+    text-decoration: underline;
+    color: #a3e4d7;
+}
+
+.news-date {
+    font-size: 14px;
+    color: #b3b3b3;
+    margin-top: 10px;
+}
+
+/* Streamlit Default Components */
+.stButton>button {
+    background-color: #008CBA;
+    color: white;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 8px;
+}
+
+.stTextInput, .stNumberInput, .stSelectbox {
+    background-color: #333333;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.stNumberInput {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.stSuccess {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.stError {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+    /* Sidebar Styling */
+    .css-1aumxhk {  /* Container styling for option menu */
+        padding: 0 !important;
+        background-color: #2b2b2b;  /* Customize as needed */
+    }
+    .css-18e3th9 {  /* Styling for icons */
+        color: white !important;
+        font-size: 20px !important;
+    }
+    .css-1d391kg {  /* Unselected nav-link styling */
+        font-size: 18px !important;
+        text-align: left;
+        margin: 0px;
+        --hover-color: #555555;
+    }
+    .css-15tx938 {  /* Selected nav-link styling */
+        background-color: #008CBA !important;
+    }
+        /* Flex container for the title and logo */
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        /* Logo styling */
+        .dashboard-logo {
+            vertical-align: middle;
+            width: 80px;
+        }
+/* Portfolio Summary Container Styling */
+.portfolio-summary-container {
+    background-color: #1e1e2f;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    color: #e0e0e0;
+    margin-top: 20px;
+}
+
+.portfolio-summary-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #4CAF50; /* Light green for the title */
+    margin-bottom: 15px;
+}
+
+/* Portfolio Summary Table Styling */
+.portfolio-summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.portfolio-summary-table th, .portfolio-summary-table td {
+    padding: 12px 15px;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.portfolio-summary-table th {
+    background-color: #2d2d3f;
+    font-weight: bold;
+    border-top: 2px solid #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+}
+
+.portfolio-summary-table td {
+    background-color: #252535;
+}
+
+.portfolio-summary-table tr:hover td {
+    background-color: #3a3a4f;
+}
+
+.total-summary {
+    font-weight: bold;
+    color: #f5f5f5;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.highlight-profit {
+    color: #76D7C4; /* Light teal color for positive profit */
+}
+
+.highlight-loss {
+    color: #E74C3C; /* Red for loss */
+}
